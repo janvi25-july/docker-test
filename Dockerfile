@@ -1,4 +1,4 @@
-FROM openjdk:17
+FROM openjdk:21
 
 COPY target/docker-server.jar  /usr/app/
 
